@@ -5,11 +5,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="apache服务免费将http变为https, 黑客黑阔博客">
-    <meta name="description" content="install certbot1sudo snap install --classic certbot	
+    <meta name="description" content="install certbotsudo snap install --classic certbot	
 
-准备certbot命令1sudo ln -s /snap/bin/certbot /usr/bin/certbot
-
-开始安装ssl">
+准备certbot命令sudo ln -s &amp;#x2F;snap&amp;#x2F;bin&amp;#x2F;certbot &amp;#x2F;usr&amp;#x">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -409,15 +407,15 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="install-certbot"><a href="#install-certbot" class="headerlink" title="install certbot"></a>install certbot</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo snap install --classic certbot	</span><br></pre></td></tr></table></figure>
+                <h2 id="install-certbot"><a href="#install-certbot" class="headerlink" title="install certbot"></a>install certbot</h2><pre class="line-numbers language-none"><code class="language-none">sudo snap install --classic certbot	<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<h2 id="准备certbot命令"><a href="#准备certbot命令" class="headerlink" title="准备certbot命令"></a>准备certbot命令</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo ln -s /snap/bin/certbot /usr/bin/certbot</span><br></pre></td></tr></table></figure>
+<h2 id="准备certbot命令"><a href="#准备certbot命令" class="headerlink" title="准备certbot命令"></a>准备certbot命令</h2><pre class="line-numbers language-none"><code class="language-none">sudo ln -s &#x2F;snap&#x2F;bin&#x2F;certbot &#x2F;usr&#x2F;bin&#x2F;certbot<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<h2 id="开始安装ssl"><a href="#开始安装ssl" class="headerlink" title="开始安装ssl"></a>开始安装ssl</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo certbot --apache</span><br></pre></td></tr></table></figure>
+<h2 id="开始安装ssl"><a href="#开始安装ssl" class="headerlink" title="开始安装ssl"></a>开始安装ssl</h2><pre class="line-numbers language-none"><code class="language-none">sudo certbot --apache<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<h2 id="测试自动更新"><a href="#测试自动更新" class="headerlink" title="测试自动更新"></a>测试自动更新</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo certbot renew --dry-run</span><br></pre></td></tr></table></figure>
+<h2 id="测试自动更新"><a href="#测试自动更新" class="headerlink" title="测试自动更新"></a>测试自动更新</h2><pre class="line-numbers language-none"><code class="language-none">sudo certbot renew --dry-run<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<h2 id="确认https能否访问"><a href="#确认https能否访问" class="headerlink" title="确认https能否访问"></a>确认https能否访问</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">访问https://your-ip.com/</span><br></pre></td></tr></table></figure>
+<h2 id="确认https能否访问"><a href="#确认https能否访问" class="headerlink" title="确认https能否访问"></a>确认https能否访问</h2><pre class="line-numbers language-none"><code class="language-none">访问https:&#x2F;&#x2F;your-ip.com&#x2F;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 
                 
